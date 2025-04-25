@@ -3,6 +3,10 @@
 Membangun Sistem Terintegrasi Antar Layanan
 Studi Kasus: Pemesanan Buku Online
 
+# Link Demo Youtube
+
+https://youtu.be/rMyzh7c4WHg
+
 # Terdiri dari 3 layanan utama:
 
 - UserService (Port 5001)
