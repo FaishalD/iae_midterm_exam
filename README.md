@@ -7,6 +7,10 @@ Studi Kasus: Pemesanan Buku Online
 
 https://youtu.be/rMyzh7c4WHg
 
+# Link Github
+
+https://github.com/FaishalD/iae_midterm_exam.git
+
 # Terdiri dari 3 layanan utama:
 
 - UserService (Port 5001)
@@ -18,10 +22,13 @@ https://youtu.be/rMyzh7c4WHg
 Menyediakan data user.
 
 _Endpoint_
+
 GET /users/{user_id}
+
 Mengambil data user berdasarkan ID.
 
 Contoh Response (200 OK):
+
 {
 "id": 1,
 "name": "Faishal D",
@@ -29,6 +36,7 @@ Contoh Response (200 OK):
 }
 
 Contoh Response (404 Not Found):
+
 {
 "error": "User not found"
 }
@@ -38,10 +46,13 @@ Contoh Response (404 Not Found):
 Menyediakan data buku.
 
 _Endpoint_
+
 GET /books
+
 Mengambil semua data buku.
 
 Contoh Response:
+
 [
 {
 "id": 1,
@@ -76,9 +87,11 @@ Contoh Response:
 ]
 
 GET /books/{book_id}
+
 Mengambil detail buku berdasarkan ID.
 
 Contoh Response (200 OK):
+
 {
 "id": 1,
 "title": "Atomic Habits",
@@ -87,6 +100,7 @@ Contoh Response (200 OK):
 }
 
 Contoh Response (404 Not Found):
+
 {
 "error": "Book not found"
 }
@@ -96,16 +110,20 @@ Contoh Response (404 Not Found):
 Mengelola pemesanan buku dari user.
 
 _Endpoint_
+
 POST /orders
+
 Membuat pesanan baru.
 
 Request Body:
+
 {
 "user_id": 1,
 "book_id": 2
 }
 
 Contoh Response (201 Created):
+
 {
 "order_id": 1,
 "user": {
@@ -123,6 +141,7 @@ Contoh Response (201 Created):
 }
 
 GET /orders/{user_id}
+
 Melihat semua pesanan yang dibuat oleh user tertentu.
 
 Contoh Response:
@@ -147,13 +166,16 @@ Contoh Response:
 # Run Service
 
 _UserService_
+
 cd UserService
 python app.py
 
 _BookService_
+
 cd BookService
 python app.py
 
 _OrderService_
+
 cd OrderService
 python app.py
