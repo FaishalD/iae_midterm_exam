@@ -11,6 +11,24 @@ books = {
         "author": "Robert Kiyosaki",
         "price": 120000,
     },
+    3: {
+        "id": 3,
+        "title": "Laskar Pelangi",
+        "author": "Andrea Hirata",
+        "price": 150000,
+    },
+    4: {
+        "id": 4,
+        "title": "Doraemon Vol.03",
+        "author": "Fujiko F. Fujio",
+        "price": 50000,
+    },
+    5: {
+        "id": 5,
+        "title": "Makanya Mikir!",
+        "author": "Cania and Abigail",
+        "price": 160000,
+    },
 }
 
 

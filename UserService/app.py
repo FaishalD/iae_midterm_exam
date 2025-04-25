@@ -4,8 +4,11 @@ app = Flask(__name__)
 
 # Data User Dummy
 users = {
-    1: {"id": 1, "name": "John Doe", "email": "john@example.com"},
-    2: {"id": 2, "name": "Jane Smith", "email": "jane@example.com"},
+    1: {"id": 1, "name": "Faishal D", "email": "fai@example.com"},
+    2: {"id": 2, "name": "Wafiq J", "email": "waf@example.com"},
+    3: {"id": 3, "name": "Yasmin A", "email": "yas@example.com"},
+    4: {"id": 4, "name": "Arya D", "email": "ary@example.com"},
+    5: {"id": 5, "name": "Benito", "email": "ben@example.com"},
 }
 
 
